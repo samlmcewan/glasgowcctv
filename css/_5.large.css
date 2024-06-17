@@ -1,5 +1,9 @@
 /* Large devices (desktops, 992px and up) */
 
 @media (min-width: 992px) {
+.top-bar .container {
+    padding-right: calc(var(--bs-gutter-x)* .5)!important;
+}
+
 
 }
