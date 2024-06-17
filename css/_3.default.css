@@ -4,7 +4,8 @@
 # Typography
 --------------------------------------------------------------*/
 body {
-    font-size: 3.5rem;
+    font-size: 1.125rem;
+    font-family: "Barlow", sans-serif;
 }
 .barlow {
     font-family: "Barlow", sans-serif;
@@ -13,4 +14,22 @@ body {
 .barlowC {
     font-family: "Barlow Condensed", sans-serif;
     font-weight: 800;
+}
+
+/*--------------------------------------------------------------
+# Top Bar
+--------------------------------------------------------------*/
+.top-bar {
+    background-color: var(--gray1);
+}
+
+.top-bar a {
+    text-decoration: none;
+    color: var(--white);
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.top-bar .top-item svg {
+    width: 1.5rem;
 }
