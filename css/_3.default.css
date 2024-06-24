@@ -10,7 +10,7 @@ body {
 
 h2 {
     font-family: "Barlow", sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 3rem;
 }
 .barlow {
@@ -277,6 +277,12 @@ section.h-gray .heading {
     fill: var(--black)!important;
 }
 
+/*--------------------------------------------------------------
+# About
+--------------------------------------------------------------*/
+section.about .gray-3 {
+    background-color: var(--gray3);
+}
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
