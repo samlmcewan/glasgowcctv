@@ -7,6 +7,12 @@ body {
     font-size: 1.125rem;
     font-family: "Barlow", sans-serif;
 }
+
+h2 {
+    font-family: "Barlow", sans-serif;
+    font-weight: 300;
+    font-size: 3rem;
+}
 .barlow {
     font-family: "Barlow", sans-serif;
     font-weight: 600;
@@ -14,6 +20,11 @@ body {
 .barlowC {
     font-family: "Barlow Condensed", sans-serif;
     font-weight: 800;
+}
+
+section.h-gray .heading {
+    background-color: var(--gray2);
+    width: 100%;
 }
 
 /*--------------------------------------------------------------
@@ -207,7 +218,66 @@ body {
         width: 15rem;
     }
 
-    /*--------------------------------------------------------------
+/*--------------------------------------------------------------
+# Services
+--------------------------------------------------------------*/
+.services .card {
+    border: none;
+}
+.services .card h3 {
+    color: #ffffff;
+    font-size: 3.5rem;
+    font-weight: 800;
+}
+.services .card h3 span {
+    display: block;
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+.services .cards .card-body {
+    position: relative;
+    transition: all .3s ease-in;
+}
+
+.services .cards .card-body svg {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 5rem;
+   
+}
+
+.services .cards .col:nth-of-type(1) .card-body {
+    background-color: var(--blue);
+}
+
+.services .cards .col:nth-of-type(2) .card-body {
+    background-color: var(--yellow);
+}
+
+.services .cards .col:nth-of-type(3) .card-body {
+    background-color: var(--red);
+}
+.services .cards .col a .card-body svg polyline  {
+    transition: all .3s ease-in;
+}
+
+
+.services a.card {
+    text-decoration: none;
+}
+.services a:hover {
+    cursor: pointer;
+}
+.services .cards .col a:hover .card-body {
+    background-color: var(--black);
+}
+.services .cards .col a:hover .card-body svg polyline {
+    fill: var(--black)!important;
+}
+
+/*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
 footer {
