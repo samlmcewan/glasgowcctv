@@ -354,6 +354,37 @@ section.h-gray .heading {
 section.about .gray-3 {
     background-color: var(--gray3);
 }
+
+/*--------------------------------------------------------------
+# Our Approach
+--------------------------------------------------------------*/
+.our-approach .svg-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.our-approach .svg-text-container p {
+    color: var(--yellow);
+    position: absolute;
+    font-size: 1.6rem;
+    padding: 5rem;
+    text-align: center;
+    top: 30%;
+    font-weight: 600;
+}
+
+.our-approach .dot-container .dot {
+    width: .875rem;
+    height: .875rem;
+    margin: .5rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--red);
+    border-radius: 50%;
+}
+
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/

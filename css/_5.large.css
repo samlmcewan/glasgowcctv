@@ -25,6 +25,15 @@
     font-size: 1.55rem;
   }
 
+  /* Our Approach - Large devices  */
+
+.our-approach .svg-text-container p {
+    top: 37%;
+    font-size: 5rem;
+    padding-left: 7rem;
+    padding-right: 8rem;
+  }
+
 
 
 }
