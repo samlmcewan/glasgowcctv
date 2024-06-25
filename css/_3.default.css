@@ -26,7 +26,15 @@ section.h-gray .heading {
     background-color: var(--gray2);
     width: 100%;
 }
-
+.btn.btn-outline {
+    border: 4px solid var(--blue);
+    border-radius: 0;
+    color: #ffffff;
+    font-family: "Barlow Condensed", sans-serif;
+    text-transform: uppercase;
+    font-size: .875rem;
+    width: fit-content;
+}
 /*--------------------------------------------------------------
 # Top Bar
 --------------------------------------------------------------*/
@@ -217,6 +225,69 @@ section.h-gray .heading {
     #main-nav .logo-top {
         width: 15rem;
     }
+
+/*--------------------------------------------------------------
+# Hero
+--------------------------------------------------------------*/
+/* .swiper {
+    width: 600px;
+    height: 300px;
+  } */
+  .hero {
+    height: 30vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.hero .hero-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-bottom: 2rem solid var(--gray2);
+}
+
+
+.hero-text-container {
+    background-color: var(--black);
+    width: 75vw;
+    height: 75vw;
+    border: 1rem solid var(--blue);
+    border-radius: 50%;
+    position: absolute;
+    bottom: -20vw;
+    padding: 15vw;
+    right: -10vw;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    
+}
+.hero-text {
+   
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.hero-text h2 {
+    color: #ffffff;
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: .25rem;
+}
+
+
+.swiper, .swiper-slide {
+    width: 100%;
+    height: 100%;
+  }
+
+.swiper-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 
 /*--------------------------------------------------------------
 # Services

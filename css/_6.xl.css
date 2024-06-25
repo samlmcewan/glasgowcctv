@@ -8,7 +8,29 @@
         background-color: var(--yellow);
     }
 
-     /* Footer - XLarge Devices */
+    /* Hero - XL Devices */
+    .hero {
+      height: 60vh;
+  }
+  .hero-text-container {
+    height: 66vh;
+        width: 66vh;
+        border: 2rem solid var(--blue);
+        bottom: -12vh;
+        padding: 10vh;
+        padding-top: 13vh;
+        right: -10vh;
+  }
+  
+  .hero-text h2 {
+    font-size: 4rem;
+  }
+  .hero-text .btn.btn-outline {
+    font-size: 1.55rem;
+  }
+
+
+/* Footer - XLarge Devices */
 footer, footer a {
     font-size: 1.125rem;
 }

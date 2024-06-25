@@ -5,5 +5,26 @@
     padding-right: calc(var(--bs-gutter-x)* .5)!important;
 }
 
+/* Hero - Large Devices */
+
+.hero-text-container {
+    width: 70vw;
+    height: 70vw;
+    border: 2rem solid var(--blue);
+    bottom: -25vw;
+    padding-top: 13vw;
+    padding-left: 16vw;
+    padding-right: 17vw;
+    right: -12vw;
+  }
+  
+  .hero-text h2 {
+    font-size: 4rem;
+  }
+  .hero-text .btn.btn-outline {
+    font-size: 1.55rem;
+  }
+
+
 
 }

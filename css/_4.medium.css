@@ -1,6 +1,30 @@
 /* Medium devices (tablets, 768px and up) */
 
 @media (min-width: 768px) {
+  /* Hero - medium devices  */
+
+
+.hero {
+    height: 40vh;
+}
+
+.hero-text-container {
+  width: 65vw;
+  height: 65vw;
+  border: 2rem solid var(--blue);
+  bottom: -25vw;
+  padding: 12vw;
+  right: -10vw;
+}
+
+.hero-text h2 {
+  font-size: 3rem;
+}
+.hero-text .btn.btn-outline {
+  font-size: 1rem;
+}
+
+
   /* Footer - Medium devices */
     
   .shfooter .collapse {
