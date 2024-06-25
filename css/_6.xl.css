@@ -52,7 +52,9 @@
   height: .35rem;
 }
 
-
+.testimonials .author {
+  margin-top: -1.5rem;
+}
 /* Footer - XLarge Devices */
 footer, footer a {
     font-size: 1.125rem;

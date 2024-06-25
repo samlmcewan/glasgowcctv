@@ -386,6 +386,32 @@ section.about .gray-3 {
 }
 
 /*--------------------------------------------------------------
+# Testimonials
+--------------------------------------------------------------*/
+.testimonials .author-container {
+    position: relative;
+    display: inline-block; 
+    
+}
+.testimonials .author-container img {
+    display: block;
+    /* width: 60%; */
+}
+.testimonials .author {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center; /* Center align text */
+    padding: 10px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: -1rem;
+}
+.testimonials .author p {
+    margin-bottom: 0;
+}
+/*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
 footer {
